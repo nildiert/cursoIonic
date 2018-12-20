@@ -1,5 +1,9 @@
 # cursoIonic
 
+## ¿Que es?
+
+Framework basado en Angular que permite crear aplicaciones hibridas 
+
 ## Contenido
 
 1. Introducción y setup del entorno
@@ -12,3 +16,11 @@
 
 
 ## Prerequisitos
+
+* Javascript
+* Html
+* Css
+* Api Rest
+  - Typescript
+  - Angular
+  - Desarrollo movil en cualquier plataforma
