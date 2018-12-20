@@ -21,6 +21,28 @@ Framework basado en Angular que permite crear aplicaciones hibridas
 * Html
 * Css
 * Api Rest
+* Adicionales
   - Typescript
   - Angular
   - Desarrollo movil en cualquier plataforma
+  
+  ## Herramientas usadas
+  * Navegador web
+  * Editor de texto
+  * Node JS (*npm*)
+  * Ionic CLI
+  
+  ## Ionic CLI
+  
+  Ionic CLI nos permite:
+  * Crear proyectos 
+  * Generar
+    - Componentes
+    - Rutas
+    - Servicios
+    - Pipes
+    - Etc
+  * Correr app localmente
+  * Hacer testing 
+  
+    
