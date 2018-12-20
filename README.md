@@ -35,6 +35,7 @@ Framework basado en Angular que permite crear aplicaciones hibridas
   ## Ionic CLI
   
   Ionic CLI nos permite:
+  
   * Crear proyectos 
   * Generar
     - Componentes
@@ -44,5 +45,54 @@ Framework basado en Angular que permite crear aplicaciones hibridas
     - Etc
   * Correr app localmente
   * Hacer testing 
+  * Preparar app para producción
+  * Compilar app nativa
+  
+  ## Instalar ionic CLI 
+
+  npm install -g ionic
+  *Instalamos globalmente ionic y ya 
+  
+  ## Crear nueva app
+  
+  *Para crear una app 
+  ionic start geocaching blank
+  (No instalar la versión de ionic 4)
+  
+  ## Ejecutar servidor
+  ionic serve
+  
+  ## Estructura de archivos
+ Node modules :  Guarda dependencias
+ src : Guarda los archivos donde hacemos el desarrollo
+  - app : Guarda los componentes
+ assets: Plantillas, imagenes
+ Theme: Información de estilo
+ www: Guarda todo lo qwue vemos en el navegador
+ 
+ ## Estructura básica de pagina en Ionic
+ * src/pages/home/home.html: Guarda la información de la vista principal
+ 
+## Generar componentes
+
+ionic generate --help (component, page, directive, page, pipe, provider, tabs)
+
+ionic generate page Lugar
+
+## Navegar a una pagina
+
+Agregar en appModule
+
+declarations: [
+    LugarPage
+],
+entryComponents: [
+LugarPage
+]
+
+
+  
   
     
+
+
